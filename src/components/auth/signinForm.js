@@ -15,13 +15,14 @@ class SignInForm extends Component {
                 placeholder='Email' 
                 name='email' 
                 component={FormInput}/>
-                 <Field className='sign-in-form__password' 
+                <Field className='sign-in-form__password' 
                 type='password' 
                 title='Password' 
                 placeholder='Password' 
                 name='password' 
                 component={FormInput}/>
-                 <Field className='sign-in-form__login' 
+                <div className='sign-in-form__line'></div>
+                <Field className='sign-in-form__login' 
                 onClick={() => console.log('trying to submit')}
                 type='submit' 
                 title='Login' 
